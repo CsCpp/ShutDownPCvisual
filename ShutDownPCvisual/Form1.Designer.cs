@@ -46,8 +46,9 @@
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = SystemColors.MenuHighlight;
-            ClientSize = new Size(303, 157);
+            ClientSize = new Size(305, 159);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             Name = "Form1";
             Text = "ShutDownPC";
